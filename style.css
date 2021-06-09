@@ -1,0 +1,427 @@
+
+
+  
+  .wrapper{
+      display: grid;
+      grid-template-columns: 4fr 1fr;
+      padding-top:25px;
+      /* padding-top:15px; 
+       /* margin-left:15px; */
+       padding-left:10px ;  
+  }
+  .wrapper2{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main1{
+    background-color:hsl(217, 28%, 15%);
+    height:160vh;
+    color:white;
+    
+  }
+  
+  *{
+      margin:0px;
+  }
+  .illu{
+      display: flex;
+      justify-content:center;
+      
+      /* margin-top:-35px;  */
+     
+  }
+      
+        @media only screen and (max-width: 600px) {
+            .illu{
+              width:250px;
+              height:250px;
+               margin: 10px; 
+            }
+            .wrapper2{
+                margin-right:20px;
+            }
+            .svg-file{
+                zoom: 0.23;
+                margin-top:250px; 
+                margin-left:1px !important;
+                /* margin-left:-270px; */ 
+                 /* background-color:red !important;  */
+            }
+             .main-h1{
+                 height:"80vh" !important;
+               margin-top:-40px !important;
+            } 
+            .fourth{
+                 margin-top:-271px; 
+                 height:60vh !important;
+            }
+            .next{
+                padding-top:20px;
+            }
+            .jo{
+              /* margin-top:-400px; */
+            }
+            #jo{
+              padding-top:50px;
+              height:80vh;
+            }
+            .nt{
+              margin-top:100px !important;
+            } 
+            #ca{
+              padding-top:400px !important; 
+            }
+            .column {
+                flex: 50%;
+              }
+             .tr{
+                width:300px  !important;
+                height:300px !important;
+            }
+            .next{
+              /* background-color:hsl(218, 28%, 13%) !important; */
+              /* height:600vh !important; */
+          }
+            .inp{
+              /* width:2rem !important; */
+            }
+            #jo{
+             margin-top:-120px;
+            }
+            .jos{
+              height:150vh !important;
+            }
+            .tr{
+              margin-top:50px;            }
+            .last{
+              /* margin-top:5px; */
+              padding-top:100px;
+              height:120vh !important;
+            }
+            .jum{
+              height:50vh !important;
+            }
+            .na{
+              height:90vh !important;
+              word-wrap: break-word !important;
+
+            }
+
+            #op.card {
+              background-color: hsl(219, 30%, 18%);
+              color: white;
+              padding: 1rem;
+              height: 40rem !important;
+            }
+            .imo{border-radius: 60px};;
+            
+          }
+
+          .nav-links{
+              margin-left:20px;
+          }
+          .nt{
+            margin-top:160px !important;
+          }
+          
+.wrapper3{
+    display:grid;
+    /* grid-template-columns: 4fr 4fr 4fr; */
+     grid-template-columns: 1fr 1fr 1fr;
+     /* text-align: justify;  
+     text-align-last: center;  */
+      margin-top:10px;
+      text-align:center;
+   
+}
+.c{
+    font-weight: 1000px;
+}
+.third{
+   margin-top:-60px;
+   background:url()
+}
+  .main-h1{
+      margin-top:-400px;
+      font-size:30px;
+  }
+ @media only screen and (min-width: 600px) and (max-width:768px){
+    .svg-file{
+        zoom: 0.57;
+        margin-top:-150px !important; 
+        /* margin-left:-270px; */ 
+         /* background-color:red !important;  */
+    }
+    .fourth{
+        margin-top: 58px; 
+    }
+    .tr{
+      width:380px  !important;
+      height:400px !important;
+  }
+  /* #op.card {
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    padding: 1rem;
+    height: 40rem !important;
+  } */
+ }
+ .pe{
+   margin-top:20px;
+ }
+
+
+
+ .svg-file{
+     margin-top:-5px;
+ }
+ .butt{
+    display: block;
+    width: 50%;
+    border: none;
+    background-color:hsl(198, 60%, 50%);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+ }
+ .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    margin-top:30px;
+    /* border: 3px solid green;  */
+  }
+.bu{
+    /* text-align:center; */
+    margin:auto;
+}
+.pa{
+    margin-top:20px;
+}
+  
+  /* .column {
+    flex: 25%;
+    padding: 20px;
+  } */
+
+  /* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+  flex: 25%;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.vh{
+    /* height:100vh; */
+}
+.fourth{
+    background-color:hsl(218, 28%, 13%);
+     /* height:1vh;  */
+    /* width:100%; */
+}
+.next{
+    background-color:hsl(218, 28%, 13%) !important;
+    height:200vh !important;
+}
+.fifth{
+    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-around; */
+}
+.image-sec{
+  background-color:hsl(218, 28%, 13%) !important;
+  ;
+}
+.image-sec-2{
+  background-color:hsl(218, 28%, 13%) !important;
+  
+  ;
+}
+
+
+
+
+@media (min-width: 600px) {
+    #jo.cards,#neem.cards { grid-template-columns: repeat(2, 1fr); }
+    
+  
+  }
+  @media (min-width: 900px) {
+    #jo.cards,#neem.cards { grid-template-columns: repeat(2, 1fr);
+     }
+     
+  }
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    text-align: center;
+  }
+  .card{
+      margin:20px;
+  }
+  .image-sec{
+      margin-top:30px;
+  }
+  .im{
+      margin-top:100px;
+  }
+
+ 
+  .grill{
+    display:flex;
+    justify-content:space-around;
+  }
+  .imo{
+    border-radius: 60px;;
+  }
+  .ne{
+     margin-top:60px;
+  }
+.bgr{
+  margin:50px 10px 5px 100px;
+}
+
+  #op.card {
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    padding: 1rem;
+    height: 17rem;
+  }
+  
+  #ca.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+  }
+  @media (min-width: 600px) {
+    #ca.cards { grid-template-columns: repeat(2, 1fr) !important; }
+  }
+  @media (min-width: 900px) {
+    #ca.cards { grid-template-columns: repeat(3, 1fr) !important; }
+  }
+.jum{
+  height:40vh;
+  background-color: hsl(218, 28%, 13%); 
+}
+.jos{
+  background-color:hsl(216, 53%, 9%);
+   height:50vh;
+   /* width:100vw; */
+   display:flex;
+   Margin:0px !important;
+   justify-content: space-around;
+}
+.na{
+  background-color:hsl(217, 28%, 15%);
+  height:40vh;
+  width:70vw;
+  padding:30px;
+  text-align:center;
+  margin-top:-100px;
+}
+.fem{
+  margin-top:50px !important;
+}
+.ini{
+  text-align: center;
+}
+.inp{
+  width:12rem;
+  height:2rem;
+  border-radius:20px;
+  border:0px;
+}
+.b{
+  width:9rem;
+  height:2rem;
+  border-radius:20px;
+  border:0px;
+  background-color:hsl(176, 68%, 64%)
+
+}
+#nik.card {
+ 
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+  margin:0px;
+  margin:-15px;
+}
+
+#fem.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+@media (min-width: 600px) {
+  #fem.cards { grid-template-columns: repeat(2, 1fr); }
+   .com{
+     margin-top:-60px;
+     /* height:70vh !important; */
+   }
+}
+@media (min-width: 900px) {
+  #fem.cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+#ui.card {
+  /* background-color: dodgerblue; */
+  color: white;
+  padding:1rem;
+  height: 4rem;
+}
+#jump.cards {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+@media (min-width: 600px) {
+ #jump.cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  #jump.cards { grid-template-columns: repeat(5, 1fr); }
+}
+.last{
+   background-color:hsl(217, 28%, 15%);
+   height:100vh;
+   padding-top:2rem;
+}
+
+.by{
+  color:white;
+  /* font-size:50px; */
+}
+.flex-1{
+  display:flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
